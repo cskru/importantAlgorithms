@@ -17,6 +17,7 @@ npm run testMergeSort
 ### Insertion sort  
 ### Shell sort  
 ### Heap sort  
+> [Materials](https://github.com/cskru/importantAlgorithms/blob/master/docs/sorting/heapSort.md)
 ### Radix sort  
 ### Count sort  
 ### Bubble sort  
