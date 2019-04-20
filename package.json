@@ -9,7 +9,10 @@
   "keywords": [
     "algorithms"
   ],
-  "author": "kruthika and swati",
+  "contributors": [
+    "Kruthika",
+    "Swati"
+  ],
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
