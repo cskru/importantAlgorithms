@@ -29,7 +29,7 @@ const insertionSort = function (inputArr) {
         }
         inputArr[i + 1] = key;
     }
-    return [];
+    return inputArr;
 }
 
 module.exports = {
