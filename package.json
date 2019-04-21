@@ -4,7 +4,8 @@
   "description": "This project aims to implement performant versions of some of the most important and most used algorithms.",
   "scripts": {
     "testQuickSort": "mocha ./test/sorting/quickSort/functionalTest.js",
-    "testMergeSort": "mocha ./test/sorting/mergeSort/functionalTest.js"
+    "testMergeSort": "mocha ./test/sorting/mergeSort/functionalTest.js",
+    "testInsertionSort": "mocha ./test/sorting/insertionSort/functionalTest.js"
   },
   "keywords": [
     "algorithms"
@@ -16,6 +17,6 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.3"
+    "mocha": "^6.1.4"
   }
 }
