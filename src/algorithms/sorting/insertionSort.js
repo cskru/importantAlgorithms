@@ -17,3 +17,21 @@ def insertionSort(A):
     print(A)
 
 insertionSort([1,28,36,19,66,8]) */
+const insertionSort = function (inputArr) {
+    var i, j, key;
+    for (j = 1; j < inputArr.length(); j++) {
+        key = inputArr[j];
+        i = j - 1;
+
+        while (i >= 0 && inputArr[i] > key) {
+            inputArr[i + 1] = inputArr[i];
+            i = i - 1;
+        }
+        inputArr[i + 1] = key;
+    }
+    return [];
+}
+
+module.exports = {
+    insertionSort
+}
